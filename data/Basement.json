@@ -1,0 +1,36 @@
+{
+    "bsaement":[
+        {
+            "id":1,
+            "src":"img/pic1_03.png",
+            "name":"Prdfuct ote",
+            "short":"short description",
+            "number":"559$",
+            "star":"13"
+        },
+        {
+            "id":2,
+            "src":"img/pic3_05.png",
+            "name":"Pewsuct",
+            "short":"SCder description",
+            "number":"549$",
+            "star":"4" 
+        },
+        {
+            "id":3,
+            "src":"img/pic1_03.png",
+            "name":"Bjfsoie one",
+            "short":"Derg description",
+            "number":"359$",
+            "star":"16"
+        },
+        {
+            "id":4,
+            "src":"img/pic3_05.png",
+            "name":"Uioduct",
+            "short":"Rfrt description",
+            "number":"159$", 
+            "star":"16"
+        }
+    ]
+}

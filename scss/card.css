@@ -1,0 +1,784 @@
+@charset "UTF-8";
+.card-container {
+  overflow: hidden; }
+
+.card-container {
+  background: #40314E;
+  position: relative; }
+  @media screen and (min-width: 320px) {
+    .card-container {
+      /* 兼容min */ }
+      .card-container .header {
+        background: #9F7893;
+        height: 45px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 10px;
+        position: relative; }
+        .card-container .header .back {
+          position: absolute;
+          top: 0;
+          width: 45px;
+          height: 45px;
+          line-height: 45px;
+          display: block;
+          left: 6px;
+          color: #F0CEE5;
+          background: url("../img/back.png") no-repeat left;
+          padding-left: 18px;
+          background-size: 28%;
+          font-size: 14px;
+          font-weight: 600; }
+        .card-container .header .checkout {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          color: #F0CEE5;
+          font-size: 14px;
+          font-weight: 600; }
+      .card-container .section {
+        overflow-y: auto;
+        position: relative;
+        width: 100%;
+        height: 90%; }
+        .card-container .section dl {
+          width: 100%;
+          height: 105px;
+          border-bottom: 2px solid #543F5C;
+          position: relative;
+          padding: 10px; }
+          .card-container .section dl dt {
+            width: 85px;
+            float: left;
+            height: 85px; }
+            .card-container .section dl dt img {
+              width: 100%;
+              height: 100%; }
+          .card-container .section dl dd {
+            width: 70%;
+            float: left;
+            padding-left: 10px; }
+            .card-container .section dl dd span {
+              display: block;
+              line-height: 25px;
+              color: #fff;
+              font-weight: 600; }
+            .card-container .section dl dd .E90 {
+              color: #877E90;
+              font-weight: 400; }
+            .card-container .section dl dd i {
+              font-style: normal; }
+          .card-container .section dl p {
+            position: absolute;
+            right: 10px;
+            top: 7px; }
+            .card-container .section dl p span {
+              display: block;
+              padding: 5px 9px;
+              font-size: 14px;
+              color: #fff;
+              width: 25px; }
+            .card-container .section dl p .addition, .card-container .section dl p .subtraction {
+              background: #ACA1CE; }
+            .card-container .section dl p .num {
+              background: #7F749E; }
+        .card-container .section .total {
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          width: 100%; }
+          .card-container .section .total li {
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            font-size: 16px;
+            background: #6A5471;
+            margin-bottom: 2px; }
+            .card-container .section .total li span {
+              float: left;
+              padding-left: 10px; }
+            .card-container .section .total li b {
+              float: right;
+              padding-right: 10px; }
+              .card-container .section .total li b i {
+                font-style: normal; }
+          .card-container .section .total P {
+            background: #D39B43;
+            width: 85%;
+            margin: 10% auto;
+            text-align: center;
+            color: #fff;
+            height: 35px;
+            font-weight: 600;
+            font-size: 15px;
+            word-spacing: 10px;
+            line-height: 35px; } }
+  @media screen and (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .card-container {
+      /* 兼容iphone4/4s */ }
+      .card-container .header {
+        background: #9F7893;
+        height: 40px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 10px;
+        position: relative; }
+        .card-container .header .back {
+          position: absolute;
+          top: 0;
+          width: 45px;
+          height: 45px;
+          line-height: 45px;
+          display: block;
+          left: 6px;
+          color: #F0CEE5;
+          background: url("../img/back.png") no-repeat left;
+          padding-left: 18px;
+          background-size: 28%;
+          font-size: 14px;
+          font-weight: 600; }
+        .card-container .header .checkout {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          color: #F0CEE5;
+          font-size: 14px;
+          font-weight: 600; }
+      .card-container .section {
+        overflow-y: auto;
+        position: relative;
+        width: 100%;
+        height: 90%; }
+        .card-container .section dl {
+          width: 100%;
+          height: 65px;
+          border-bottom: 2px solid #543F5C;
+          position: relative;
+          padding: 5px;
+          clear: both; }
+          .card-container .section dl dt {
+            width: 55px;
+            float: left;
+            height: 55px; }
+            .card-container .section dl dt img {
+              width: 100%;
+              height: 100%; }
+          .card-container .section dl dd {
+            width: 70%;
+            float: left;
+            padding-left: 10px; }
+            .card-container .section dl dd span {
+              display: block;
+              line-height: 15px;
+              color: #fff;
+              font-weight: 600;
+              font-size: 12px; }
+            .card-container .section dl dd .E90 {
+              color: #877E90;
+              font-weight: 400; }
+            .card-container .section dl dd i {
+              font-style: normal; }
+          .card-container .section dl p {
+            position: absolute;
+            right: 8px;
+            top: 8px; }
+            .card-container .section dl p span {
+              display: block;
+              font-size: 13px;
+              color: #fff;
+              width: 16px;
+              padding: 0 2px;
+              text-align: center; }
+            .card-container .section dl p .addition, .card-container .section dl p .subtraction {
+              background: #ACA1CE; }
+            .card-container .section dl p .num {
+              background: #7F749E; }
+        .card-container .section .total {
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          width: 100%; }
+          .card-container .section .total li {
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            font-size: 16px;
+            background: #6A5471;
+            margin-bottom: 2px; }
+            .card-container .section .total li span {
+              float: left;
+              padding-left: 10px; }
+            .card-container .section .total li b {
+              float: right;
+              padding-right: 10px; }
+              .card-container .section .total li b i {
+                font-style: normal; }
+          .card-container .section .total P {
+            background: #D39B43;
+            width: 85%;
+            margin: 10% auto;
+            text-align: center;
+            color: #fff;
+            height: 35px;
+            font-weight: 600;
+            font-size: 15px;
+            word-spacing: 10px;
+            line-height: 35px; } }
+  @media screen and (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .card-container {
+      /* 兼容iphone5 */ }
+      .card-container .header {
+        background: #9F7893;
+        height: 45px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 10px;
+        position: relative; }
+        .card-container .header .back {
+          position: absolute;
+          top: 0;
+          width: 45px;
+          height: 45px;
+          line-height: 45px;
+          display: block;
+          left: 6px;
+          color: #F0CEE5;
+          background: url("../img/back.png") no-repeat left;
+          padding-left: 18px;
+          background-size: 28%;
+          font-size: 14px;
+          font-weight: 600; }
+        .card-container .header .checkout {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          color: #F0CEE5;
+          font-size: 14px;
+          font-weight: 600; }
+      .card-container .section {
+        overflow-y: auto;
+        position: relative;
+        width: 100%;
+        height: 90%; }
+        .card-container .section dl {
+          width: 100%;
+          height: 105px;
+          border-bottom: 2px solid #543F5C;
+          position: relative;
+          padding: 10px; }
+          .card-container .section dl dt {
+            width: 85px;
+            float: left;
+            height: 85px; }
+            .card-container .section dl dt img {
+              width: 100%;
+              height: 100%; }
+          .card-container .section dl dd {
+            width: 70%;
+            float: left;
+            padding-left: 10px; }
+            .card-container .section dl dd span {
+              display: block;
+              line-height: 25px;
+              color: #fff;
+              font-weight: 600; }
+            .card-container .section dl dd .E90 {
+              color: #877E90;
+              font-weight: 400; }
+            .card-container .section dl dd i {
+              font-style: normal; }
+          .card-container .section dl p {
+            position: absolute;
+            right: 10px;
+            top: 12px; }
+            .card-container .section dl p span {
+              display: block;
+              padding: 5px 9px;
+              font-size: 14px;
+              color: #fff;
+              width: 25px; }
+            .card-container .section dl p .addition, .card-container .section dl p .subtraction {
+              background: #ACA1CE; }
+            .card-container .section dl p .num {
+              background: #7F749E; }
+        .card-container .section .total {
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          width: 100%; }
+          .card-container .section .total li {
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            font-size: 16px;
+            background: #6A5471;
+            margin-bottom: 2px; }
+            .card-container .section .total li span {
+              float: left;
+              padding-left: 10px; }
+            .card-container .section .total li b {
+              float: right;
+              padding-right: 10px; }
+              .card-container .section .total li b i {
+                font-style: normal; }
+          .card-container .section .total P {
+            background: #D39B43;
+            width: 85%;
+            margin: 10% auto;
+            text-align: center;
+            color: #fff;
+            height: 35px;
+            font-weight: 600;
+            font-size: 15px;
+            word-spacing: 10px;
+            line-height: 35px; } }
+  @media screen and (device-height: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .card-container {
+      /* 兼容iphone6 */ }
+      .card-container .header {
+        background: #9F7893;
+        height: 45px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 10px;
+        position: relative; }
+        .card-container .header .back {
+          position: absolute;
+          top: 0;
+          width: 45px;
+          height: 45px;
+          line-height: 45px;
+          display: block;
+          left: 6px;
+          color: #F0CEE5;
+          background: url("../img/back.png") no-repeat left;
+          padding-left: 18px;
+          background-size: 28%;
+          font-size: 14px;
+          font-weight: 600; }
+        .card-container .header .checkout {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          color: #F0CEE5;
+          font-size: 14px;
+          font-weight: 600; }
+      .card-container .section {
+        overflow-y: auto;
+        position: relative;
+        width: 100%;
+        height: 90%; }
+        .card-container .section dl {
+          width: 100%;
+          height: 105px;
+          border-bottom: 2px solid #543F5C;
+          position: relative;
+          padding: 10px; }
+          .card-container .section dl dt {
+            width: 85px;
+            float: left;
+            height: 85px; }
+            .card-container .section dl dt img {
+              width: 100%;
+              height: 100%; }
+          .card-container .section dl dd {
+            width: 70%;
+            float: left;
+            padding-left: 10px; }
+            .card-container .section dl dd span {
+              display: block;
+              line-height: 25px;
+              color: #fff;
+              font-weight: 600; }
+            .card-container .section dl dd .E90 {
+              color: #877E90;
+              font-weight: 400; }
+            .card-container .section dl dd i {
+              font-style: normal; }
+          .card-container .section dl p {
+            position: absolute;
+            right: 10px;
+            top: 12px; }
+            .card-container .section dl p span {
+              display: block;
+              padding: 5px 9px;
+              font-size: 14px;
+              color: #fff;
+              width: 25px; }
+            .card-container .section dl p .addition, .card-container .section dl p .subtraction {
+              background: #ACA1CE; }
+            .card-container .section dl p .num {
+              background: #7F749E; }
+        .card-container .section .total {
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          width: 100%; }
+          .card-container .section .total li {
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            font-size: 16px;
+            background: #6A5471;
+            margin-bottom: 2px; }
+            .card-container .section .total li span {
+              float: left;
+              padding-left: 10px; }
+            .card-container .section .total li b {
+              float: right;
+              padding-right: 10px; }
+              .card-container .section .total li b i {
+                font-style: normal; }
+          .card-container .section .total P {
+            background: #D39B43;
+            width: 85%;
+            margin: 10% auto;
+            text-align: center;
+            color: #fff;
+            height: 35px;
+            font-weight: 600;
+            font-size: 15px;
+            word-spacing: 10px;
+            line-height: 35px; } }
+  @media all and (min-width: 767px) {
+    .card-container {
+      /* 兼容ipad */ }
+      .card-container .header {
+        background: #9F7893;
+        height: 80px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        line-height: 80px;
+        font-size: 18px;
+        position: relative; }
+        .card-container .header .back {
+          position: absolute;
+          top: 24px;
+          width: 45px;
+          height: 45px;
+          line-height: 45px;
+          display: block;
+          left: 6px;
+          color: #F0CEE5;
+          background: url("../img/back.png") no-repeat left;
+          padding-left: 18px;
+          background-size: 28%;
+          font-size: 24px;
+          font-weight: 600; }
+        .card-container .header .checkout {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          color: #F0CEE5;
+          font-size: 24px;
+          font-weight: 600; }
+      .card-container .section {
+        overflow-y: auto;
+        position: relative;
+        width: 100%;
+        height: 90%; }
+        .card-container .section dl {
+          width: 100%;
+          height: 130px;
+          border-bottom: 2px solid #543F5C;
+          position: relative;
+          padding: 15px; }
+          .card-container .section dl dt {
+            width: 100px;
+            float: left;
+            height: 100px; }
+            .card-container .section dl dt img {
+              width: 100%;
+              height: 100%; }
+          .card-container .section dl dd {
+            width: 70%;
+            float: left;
+            padding-left: 10px; }
+            .card-container .section dl dd span {
+              display: block;
+              line-height: 30px;
+              color: #fff;
+              font-weight: 600;
+              font-size: 25px; }
+            .card-container .section dl dd .E90 {
+              color: #877E90;
+              font-weight: 400; }
+            .card-container .section dl dd i {
+              font-style: normal; }
+          .card-container .section dl p {
+            position: absolute;
+            right: 10px;
+            top: 12px; }
+            .card-container .section dl p span {
+              display: block;
+              padding: 6px 9px;
+              font-size: 20px;
+              color: #fff;
+              width: 40px;
+              text-align: center; }
+            .card-container .section dl p .addition, .card-container .section dl p .subtraction {
+              background: #ACA1CE; }
+            .card-container .section dl p .num {
+              background: #7F749E; }
+        .card-container .section .total {
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          width: 100%; }
+          .card-container .section .total li {
+            height: 60px;
+            line-height: 60px;
+            color: #fff;
+            font-size: 25px;
+            background: #6A5471;
+            margin-bottom: 2px; }
+            .card-container .section .total li span {
+              float: left;
+              padding-left: 10px; }
+            .card-container .section .total li b {
+              float: right;
+              padding-right: 10px; }
+              .card-container .section .total li b i {
+                font-style: normal; }
+          .card-container .section .total P {
+            background: #D39B43;
+            width: 85%;
+            margin: 10% auto;
+            text-align: center;
+            color: #fff;
+            height: 60px;
+            font-weight: 600;
+            font-size: 25px;
+            word-spacing: 10px;
+            line-height: 60px; } }
+  @media all and (min-width: 360px) and (max-width: 767px) {
+    .card-container {
+      /* 兼容ipad以内 */ }
+      .card-container .header {
+        background: #9F7893;
+        height: 45px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 10px;
+        position: relative; }
+        .card-container .header .back {
+          position: absolute;
+          top: 0;
+          width: 45px;
+          height: 45px;
+          line-height: 45px;
+          display: block;
+          left: 6px;
+          color: #F0CEE5;
+          background: url("../img/back.png") no-repeat left;
+          padding-left: 18px;
+          background-size: 28%;
+          font-size: 14px;
+          font-weight: 600; }
+        .card-container .header .checkout {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          color: #F0CEE5;
+          font-size: 14px;
+          font-weight: 600; }
+      .card-container .section {
+        overflow-y: auto;
+        position: relative;
+        width: 100%;
+        height: 90%; }
+        .card-container .section dl {
+          width: 100%;
+          height: 105px;
+          border-bottom: 2px solid #543F5C;
+          position: relative;
+          padding: 10px; }
+          .card-container .section dl dt {
+            width: 85px;
+            float: left;
+            height: 85px; }
+            .card-container .section dl dt img {
+              width: 100%;
+              height: 100%; }
+          .card-container .section dl dd {
+            width: 70%;
+            float: left;
+            padding-left: 10px; }
+            .card-container .section dl dd span {
+              display: block;
+              line-height: 25px;
+              color: #fff;
+              font-weight: 600; }
+            .card-container .section dl dd .E90 {
+              color: #877E90;
+              font-weight: 400; }
+            .card-container .section dl dd i {
+              font-style: normal; }
+          .card-container .section dl p {
+            position: absolute;
+            right: 10px;
+            top: 12px; }
+            .card-container .section dl p span {
+              display: block;
+              padding: 5px 9px;
+              font-size: 14px;
+              color: #fff;
+              width: 25px; }
+            .card-container .section dl p .addition, .card-container .section dl p .subtraction {
+              background: #ACA1CE; }
+            .card-container .section dl p .num {
+              background: #7F749E; }
+        .card-container .section .total {
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          width: 100%; }
+          .card-container .section .total li {
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            font-size: 16px;
+            background: #6A5471;
+            margin-bottom: 2px; }
+            .card-container .section .total li span {
+              float: left;
+              padding-left: 10px; }
+            .card-container .section .total li b {
+              float: right;
+              padding-right: 10px; }
+              .card-container .section .total li b i {
+                font-style: normal; }
+          .card-container .section .total P {
+            background: #D39B43;
+            width: 85%;
+            margin: 10% auto;
+            text-align: center;
+            color: #fff;
+            height: 35px;
+            font-weight: 600;
+            font-size: 15px;
+            word-spacing: 10px;
+            line-height: 35px; } }
+  @media (device-height: 736px) and (-webkit-min-device-pixel-ratio: 2) {
+    .card-container {
+      /* 兼容iphone6 Plus */ }
+      .card-container .header {
+        background: #9F7893;
+        height: 45px;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 10px;
+        position: relative; }
+        .card-container .header .back {
+          position: absolute;
+          top: 0;
+          width: 45px;
+          height: 45px;
+          line-height: 45px;
+          display: block;
+          left: 6px;
+          color: #F0CEE5;
+          background: url("../img/back.png") no-repeat left;
+          padding-left: 18px;
+          background-size: 28%;
+          font-size: 14px;
+          font-weight: 600; }
+        .card-container .header .checkout {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          color: #F0CEE5;
+          font-size: 14px;
+          font-weight: 600; }
+      .card-container .section {
+        overflow-y: auto;
+        position: relative;
+        width: 100%;
+        height: 90%; }
+        .card-container .section dl {
+          width: 100%;
+          height: 105px;
+          border-bottom: 2px solid #543F5C;
+          position: relative;
+          padding: 10px; }
+          .card-container .section dl dt {
+            width: 85px;
+            float: left;
+            height: 85px; }
+            .card-container .section dl dt img {
+              width: 100%;
+              height: 100%; }
+          .card-container .section dl dd {
+            width: 70%;
+            float: left;
+            padding-left: 10px; }
+            .card-container .section dl dd span {
+              display: block;
+              line-height: 25px;
+              color: #fff;
+              font-weight: 600; }
+            .card-container .section dl dd .E90 {
+              color: #877E90;
+              font-weight: 400; }
+            .card-container .section dl dd i {
+              font-style: normal; }
+          .card-container .section dl p {
+            position: absolute;
+            right: 10px;
+            top: 12px; }
+            .card-container .section dl p span {
+              display: block;
+              padding: 5px 9px;
+              font-size: 14px;
+              color: #fff;
+              width: 25px; }
+            .card-container .section dl p .addition, .card-container .section dl p .subtraction {
+              background: #ACA1CE; }
+            .card-container .section dl p .num {
+              background: #7F749E; }
+        .card-container .section .total {
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          width: 100%; }
+          .card-container .section .total li {
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            font-size: 16px;
+            background: #6A5471;
+            margin-bottom: 2px; }
+            .card-container .section .total li span {
+              float: left;
+              padding-left: 10px; }
+            .card-container .section .total li b {
+              float: right;
+              padding-right: 10px; }
+              .card-container .section .total li b i {
+                font-style: normal; }
+          .card-container .section .total P {
+            background: #D39B43;
+            width: 85%;
+            margin: 10% auto;
+            text-align: center;
+            color: #fff;
+            height: 35px;
+            font-weight: 600;
+            font-size: 15px;
+            word-spacing: 10px;
+            line-height: 35px; } }
+
+/*# sourceMappingURL=card.css.map */

@@ -1,0 +1,59 @@
+
+{
+    "result":[
+    	{
+    		"id":"1",
+	        "src":"img/img_r1_c1.png",
+	        "name":"product_1",
+	        "p":"short product",
+	        "ps":"short",
+	        "price":"559$",
+	        "hours":["10","9"],
+	        "day":["Monday","Sunday"],
+	        "address":"1600 Amphitheatre Parkway Mountain View",
+	        "country":"Any",
+	        "city":"changsha",
+	        "number":["+54","454","44","23"]
+	    },{
+	    	"id":"2",
+	        "src":"img/img_r3_c1.png",
+	        "name":"product_2",
+	        "p":"short product",
+	        "ps":"short",
+	        "price":"129$",
+	        "hours":["6","5"],
+	        "day":["Monday","Saturday"],
+	        "address":"40 Amphitheatre Mountain View",
+	        "country":"China",
+	        "city":"chengdu",
+	        "number":["+65","454","44","23"]
+	    },
+	    {
+	    	"id":"3",
+	        "src":"img/img_r1_c3.png",
+	        "name":"product_3",
+	        "p":"short product",
+	        "ps":"short",
+	        "price":"59$",
+	        "hours":["11","10"],
+	        "day":["Monday","Sunday"],
+	        "address":"1100 Amphitheatre Parkway Mountain View",
+	        "country":"Any",
+	        "city":"changsha",
+	        "number":["+53","454","44","23"]
+	    },{
+	    	"id":"4",
+	        "src":"img/img_r3_c3.png",
+	        "name":"product_4",
+	        "p":"short product",
+	        "ps":"short",
+	        "price":"329$",
+	        "hours":["10","9"],
+	        "day":["Monday","Sunday"],
+	        "address":"100 Amphitheatre Parkway Mountain View",
+	        "country":"paind",
+	        "city":"beijing",
+	        "number":["+54","454","44","23"]
+	    }
+    ]
+}

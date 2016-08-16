@@ -1,0 +1,59 @@
+.menu {
+  overflow-y: auto;
+  background: #40314E;
+  padding: 0 38px; }
+  .menu .top {
+    width: 100%;
+    height: 345px;
+    padding: 0 47px; }
+    .menu .top .box {
+      width: 100%;
+      height: 230px;
+      padding-top: 100px;
+      background: url("../img/bg2.png") no-repeat top;
+      background-size: 80%; }
+    .menu .top li {
+      height: 45px;
+      width: 100%;
+      vertical-align: middle;
+      line-height: 45px;
+      font-size: 14px;
+      color: white;
+      text-align: center;
+      border-bottom: 1px solid #554862; }
+  .menu .bottom {
+    width: 100%;
+    background: #826585;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 30px; }
+    .menu .bottom dl {
+      width: 47%;
+      margin-bottom: 10px;
+      display: inline-block; }
+      .menu .bottom dl:nth-child(odd) {
+        margin-right: 5%; }
+      .menu .bottom dl img {
+        width: 100%; }
+    .menu .bottom dd {
+      margin-top: 10px;
+      padding-left: 5px; }
+      .menu .bottom dd p {
+        font-size: 12px;
+        height: 18px;
+        line-height: 18px;
+        color: white; }
+        .menu .bottom dd p.p {
+          color: #C5B7C6; }
+  @media screen and (max-width: 320px) {
+    .menu .bottom {
+      height: 530px; }
+      .menu .bottom dl {
+        height: 250px; } }
+  @media screen and (min-width: 374px) {
+    .menu .bottom {
+      height: 610px; }
+      .menu .bottom dl {
+        height: 290px; } }
+
+/*# sourceMappingURL=menu.css.map */

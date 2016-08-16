@@ -1,0 +1,34 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	font-family:"微软雅黑";
+}
+li{
+	list-style:none;
+}
+a{
+	-webkit-tap-lighting:none;
+	text-decoration: none;
+}
+body,html,.container{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+@import "../scss/font-awesome.css";
+@import "../scss/sweetalert.css";
+@import "../scss/auto.scss";
+@import "../scss/swiper.scss";
+@import "../scss/index.scss";
+@import "../scss/Basement.scss";
+@import "../scss/product-name.scss";
+@import "../scss/map.scss";
+@import "../scss/menu.scss";
+@import "../scss/card.scss";
+@import "../scss/Account.scss";
+
+
+
+
